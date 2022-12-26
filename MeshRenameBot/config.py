@@ -4,7 +4,7 @@ try:
     from .tconfig import Config
 except ImportError:
     class Config:
-        DATABASE_URL = [str, ""]
+        DATABASE_URL = [str, "mongodb+srv://bot:bot@cluster0.gyhcvwb.mongodb.net/?retryWrites=true&w=majority"]
         API_HASH = [str, "5e90b19ce034a421edc889ee01ef723f"]
         API_ID = [int, 26020165]
         BOT_TOKEN = [str, "5614419676:AAGvjLwOhqiUE4TWwb55AaZ9He6GSOiIlOU"]
