@@ -5,9 +5,9 @@ try:
 except ImportError:
     class Config:
         DATABASE_URL = [str, ""]
-        API_HASH = [str, "abcdedf......"]
-        API_ID = [int, 1234567]
-        BOT_TOKEN = [str, "bot:token here"]
+        API_HASH = [str, "5e90b19ce034a421edc889ee01ef723f"]
+        API_ID = [int, 26020165]
+        BOT_TOKEN = [str, "5614419676:AAGvjLwOhqiUE4TWwb55AaZ9He6GSOiIlOU"]
         COMPLETED_STR = [str, "▰"]
         REMAINING_STR = [str, "▱"]
         MAX_QUEUE_SIZE = [int, 5]
@@ -21,7 +21,7 @@ except ImportError:
 
         # Public username url or invite link of private chat
         FORCEJOIN = [str,""]
-        FORCEJOIN_ID = [int,-100123465978]
+        FORCEJOIN_ID = [int,-1001758516806]
 
         TRACE_CHANNEL = [int, 0]
 
